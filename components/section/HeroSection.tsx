@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
 import { motion } from "framer-motion";
+import Buttons from "@/components/ui/Buttons";
 
 export default function HeroSection() {
     return (
@@ -32,18 +33,7 @@ export default function HeroSection() {
                         doctor-led home healthcare. We are your trusted hands on the ground.
                     </p>
 
-                    <a
-                        href="https://wa.me/923192060174"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group inline-flex items-center gap-2 border border-[#6C088B] text-[#6C088B] px-5 py-2.5 sm:px-6 sm:py-3 rounded-full bg-white hover:bg-[#6C088B] hover:text-white transition-all duration-500 shadow-md hover:shadow-lg"
-                    >
-                        <span>Book Appointment</span>
-                        <FiArrowUpRight
-                            size={20}
-                            className="group-hover:rotate-45 transition-transform duration-300"
-                        />
-                    </a>
+                <Buttons text='Book Appoinment'/>
                 </motion.div>
 
                 {/* ---------- Image Section ---------- */}
