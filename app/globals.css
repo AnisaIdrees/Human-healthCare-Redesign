@@ -1,2 +1,9 @@
 @import "tailwindcss";
 
+
+/* Flip animation */
+.hover\:rotate-y-180:hover {
+  transform: rotateY(180deg);
+  transition: transform 0.7s ease;
+  transform-style: preserve-3d;
+}
