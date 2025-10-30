@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 Human Health Care - Frontend (Next.js)
 
-## Getting Started
+A modern and responsive web application built with **Next.js**, designed for Human Health Care Services.  
+This platform helps users find and book healthcare professionals such as doctors, nurses, attendants, and physiotherapists in Karachi, Pakistan.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🧠 Built with **Next.js 14** and **React 18**
+- 📱 Fully **Responsive UI** using Tailwind CSS
+- ⚡ Fast routing and optimized SEO
+- 🧾 Dynamic pages for services and details
+- 🔍 Search and category filters
+- 🌐 Deployed on **Vercel**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS  
+- **State Management:** useState, useEffect (React Hooks)  
+- **Deployment:** Vercel  
+- **Version Control:** Git + GitHub  
+
+---
+
+## 📂 Project Structure
+
+human-healthcare/
+├── public/
+│ ├── logo.png
+│ └── backgroundimage.jpg
+├── src/
+│ ├── app/
+│ │ ├── layout.js
+│ │ ├── page.js
+│ │ └── components/
+│ │ ├── Navbar.jsx
+│ │ ├── HeroSection.jsx
+│ │ └── Footer.jsx
+├── package.json
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
 
 ```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/aneesaidrees/human-healthcare.git
+
+# 2️⃣ Navigate into the project folder
+cd human-healthcare
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000
+ in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ 🔗 Live Demo https://human-health-care-redesign.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 View Live Site
 
-## Learn More
+🧑‍💻 Author
 
-To learn more about Next.js, take a look at the following resources:
+Anisa Idrees
+Frontend Developer (React / Next.js)
+📧 anisaidrees191@gmail.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 GitHub Profile
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📄 License
 
-## Deploy on Vercel
+This project is licensed under the MIT License – feel free to use and modify it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💡 Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was developed as part of a Technical Test for the Frontend Developer (Next.js) position
