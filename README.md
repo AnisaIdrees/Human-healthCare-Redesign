@@ -11,15 +11,13 @@ This platform helps users find and book healthcare professionals such as doctors
 - 📱 Fully **Responsive UI** using Tailwind CSS
 - ⚡ Fast routing and optimized SEO
 - 🧾 Dynamic pages for services and details
-- 🔍 Search and category filters
 - 🌐 Deployed on **Vercel**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Next.js, React, Tailwind CSS  
-- **State Management:** useState, useEffect (React Hooks)  
+- **Frontend:** Next.js, React, TypeScript ,Tailwind CSS  
 - **Deployment:** Vercel  
 - **Version Control:** Git + GitHub  
 
